@@ -1,0 +1,342 @@
+/* Tambahkan kode CSS kalian di file ini */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: inline;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+
+.mnu {
+  list-style-type: none;
+  padding-top: 20px;
+  margin-right: 20px;
+  color: #515151;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#home {
+  color: #2993d5;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.button-navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#signup {
+  display: flex;
+  padding: 8px 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 10px;
+  background-color: #1c79f2;
+  color: #ffff;
+  border: none;
+}
+
+#login {
+  display: flex;
+  padding: 8px 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 10px;
+  background-color: #ffff;
+  color: #1c79f2;
+  border: none;
+}
+
+h1 {
+  color: #2993d5;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 629.013px;
+}
+
+#description {
+  display: flex;
+  display: inline-block;
+  padding-right: 60px;
+  width: 565px;
+  height: 86px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #575656;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+#getstarted {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding-left: 150px;
+}
+
+.sec1 {
+  display: flex;
+  flex-direction: column;
+  width: 183.157px;
+  height: 44px;
+  padding: 8px 36px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.btngetstarted {
+  display: flex;
+  width: 183.157px;
+  height: 44px;
+  padding: 8px 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #1c79f2;
+  border: none;
+  color: #ffff;
+}
+
+.btnget {
+  padding-right: 440px;
+  padding-top: 30px;
+}
+
+.sec11 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sec2 {
+  margin-top: 50px;
+  display: flex;
+  display: inline-block;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 150px;
+  text-align: center;
+}
+
+#konten {
+  text-align: center;
+}
+
+.psec2 {
+  display: flex;
+  width: 984px;
+  height: 187px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #575656;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+#card {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.card {
+  width: 354px;
+  height: 350px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #eff9fb;
+}
+
+h3 {
+  display: inline-block;
+  width: 179px;
+  color: #2993d5;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.p2 {
+  display: flex;
+  display: block;
+  margin-left: 20px;
+  width: 316px;
+  height: 323px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #575656;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+.try-conseling {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.img {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.h2 {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+h2 {
+  width: 561px;
+  color: #2993d5;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.ptry {
+  display: flex;
+  display: inline-block;
+  padding-top: 20px;
+  width: 576px;
+  height: 305px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #575656;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.btn-c {
+  display: inline-flex;
+  height: 44px;
+  padding: 8px 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #1c79f2;
+  border: none;
+  color: #ffff;
+  margin-top: 40px;
+}
+
+.button-c {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 280px;
+  margin: 0px 66px;
+  margin-bottom: 50px;
+  font-family: 'montserrat';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  gap: 5px;
+}
+
+form input {
+  width: 715px;
+  height: 20px;
+}
+
+form #status {
+  width: 16px;
+  height: 16px;
+}
+
+form #submit-form {
+  width: 60px;
+  margin-top: 10px;
+  padding: 5px 5px;
+  border-radius: 10px;
+  border: 1px solid #1c79f2;
+  background-color: #1c79f2;
+  color: #ffffff;
+}
+
+form #submit-form:hover {
+  background-color: #1c79f2;
+}
+
+.lets {
+  justify-content: inline-block;
+  margin-left: 410px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  height: 46px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background: #2993d5;
+  color: #ffff;
+}
